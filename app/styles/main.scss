@@ -1,3 +1,5 @@
+$break-small: 800px;
+
 body {
   border-top: solid 10px #496f87;
 }
@@ -5,6 +7,11 @@ body {
 .centered {
   width: 60%;
   margin:20px auto;
+
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    float: none;
+  }
 }
 
 h1 {
@@ -16,6 +23,11 @@ a.btn {
   font-size: 2.6em;
   margin-bottom: 10px;
   padding:0;
+
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    float: none;
+  }
 
 }
 
