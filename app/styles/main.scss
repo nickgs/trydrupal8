@@ -31,6 +31,13 @@ a.btn {
 
 }
 
+a.url {
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1.3em;
+  }
+}
+
 a {
   color: #496f87;
 }
