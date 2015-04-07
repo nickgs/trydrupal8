@@ -27,7 +27,7 @@ angular.module('td8App')
         $timeout(function(){
           //hide loader.
           $scope.notLoaded = false;
-        }, 1000);
+        }, 2500);
 
         $scope.instanceSpun = true;
       });
