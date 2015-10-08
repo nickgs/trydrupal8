@@ -7,10 +7,19 @@ body {
 .centered {
   width: 60%;
   margin:20px auto;
+  
+  .release {
+    width: 200px;
+    float: right;
+  }
 
   @media screen and (max-width: $break-small) {
     width: 100%;
     float: none;
+
+    .release {
+      width: 100%;
+    }
   }
 }
 
